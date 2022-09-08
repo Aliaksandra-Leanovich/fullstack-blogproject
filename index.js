@@ -12,7 +12,7 @@ import { UserController, PostController } from "./controllers/index.js";
 
 mongoose
   .connect(
-    "mongodb+srv://admin:psycholog1@cluster0.dtfe8ig.mongodb.net/blog?retryWrites=true&w=majority"
+    "mongodb+srv://admin:<password>@cluster0.dtfe8ig.mongodb.net/blog?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("DB OK");
